@@ -6,3 +6,15 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+# it's need to work with python code
+pyo3 = { version = "0.21.2", features = ["auto-initialize"] }
+
+# it's need to work with telegram bot api
+teloxide = { version = "0.12", features = ["macros"] }
+log = "0.4"
+pretty_env_logger = "0.4"
+tokio = { version =  "1.8", features = ["full"] }
+
+# it's need to work with .env files
+dotenv = "0.15"
+
