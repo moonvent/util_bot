@@ -1,4 +1,5 @@
 mod apps;
+mod constants;
 
 #[tokio::main]
 pub async fn main() {

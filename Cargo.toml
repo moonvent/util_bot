@@ -10,7 +10,7 @@ edition = "2021"
 pyo3 = { version = "0.21.2", features = ["auto-initialize"] }
 
 # it's need to work with telegram bot api
-teloxide = { version = "0.12", features = ["macros"] }
+teloxide = { version = "0.12.2", features = ["macros"] }
 log = "0.4"
 pretty_env_logger = "0.4"
 tokio = { version =  "1.8", features = ["full"] }
